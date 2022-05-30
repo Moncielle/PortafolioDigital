@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para el header y nav derecho*/
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #a278f0;
+    margin: auto;
+    padding: 10px 60px;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img{
+    background-position: center;
+    background-size: contain;
+    width: 190px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.header-right ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-right ul li{
+    display: inline-block;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+    transition: all 0.6s linear;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.header-right a:hover{
+    width: auto;
+    height: 35px;
+    color: #ffff;
+    background-color: #673AB7;
+    border-radius: 10px;
+}
+
+.buttons{
+    width: 135px;
+    height: 35px;
+    background: #673AB7;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.buttons:hover{
+    border: 3px solid #673AB7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+    color: #000;
+    background-color: #D1C4E9;
+}
+
+/*Separación del header estatico del main*/
+.container-description{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+/*estilos para la parte de la información que mopstrara los botones*/
+.description{
+    width: auto;
+    height: 600px;
+    padding: 25px;
+    background-image: url(img/fondo.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description .text{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+.description img{
+    width: 600px;
+    height: 480px;
+    border-radius: 15px;
+
+}
+
+/*estilos de color de fondo*/
+.bg-purple{
+    background-color: #a278f0;
+}
+
+.gradient-custom {
+    background: linear-gradient(to right, #6D47B2, rgb(99, 156, 255));
+}
+
+.icons{
+    font-size: 25px;
+    color: #6D47B2;
+}
+
+/*Estilos para la sección de las tarjetas*/
+.cards{
+    font-size: 16px;
+}
+
+.title{
+    color: #673AB7;
+}
+
+img{
+    width: 80px;
+    height: 200px;
+}
+
+.time{
+    width: 300px;
+    height: 55px;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: #673AB7;
+    opacity: 0.8;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.url{
+    width: auto;
+    padding: 25px 20px;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+
+.url a{
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: auto;
+    background-color: #a278f0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.6s linear;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.url a:hover{
+    width: auto;
+    color: #ffff;
+    background-color: #673AB7;
+    border-radius: 10px;
+}
+
+.icons-cards{
+    margin: 0;
+    display: flex;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.icons-cards i{
+    padding-left: 8px;
+}
+
+/*Estilos para la sección del footer*/
+#footer{
+    width: 100%;
+    height: 260px;
+    margin: 0;
+}
+
+#footer p{
+    font-size: 16px;
+}
+
+#footer .icons:hover{
+    color: #fff;
+}
+
+#socialNetworks{
+    margin: 5vh 0;
+    padding: 0 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social--burbble{
+    text-decoration: none;
+    color: #fff;
+    background-color: #673AB7;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: fit-content !important;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.5);
+}
+
+.social--burbble:hover{
+    transform: scale(105%);
+    background-color: #a278f0;
+    color: #fff;
+}
+
+.text-color-white{
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
